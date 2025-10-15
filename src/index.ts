@@ -4,7 +4,7 @@ import authRoutes from './routes/auth.routes';
 import equipmentRoutes from './routes/equipment.routes';
 import { errorHandler } from './utils/errorHandler';
 
-dotenv.config(); // <- importante que esté aquí
+dotenv.config();
 
 const app = express();
 app.use(express.json());

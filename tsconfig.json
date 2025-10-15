@@ -4,7 +4,8 @@
     "strict": true,
     "module": "commonjs",
     "target": "ES2020",
-    "rootDir": "./src",
-    "outDir": "./dist"
+    "rootDir": "./",
+    "outDir": "./dist",
+    "skipLibCheck": true
   }
 }
